@@ -787,14 +787,14 @@
 # --------------
 
   utility_meter:
-    daily_discharge:
+    daily_discharge3:
       name: My Battery3 Daily Discharging in kWh
       unique_id: my_battery3_daily_discharging_in_kwh
       source: sensor.my_battery3_discharging_in_kwh
       cycle: daily
 
 
-    daily_charge:
+    daily_charge3:
       name: My Battery3 Daily Charging in kWh
       unique_id: my_battery3_daily_charging_in_kwh
       source: sensor.my_battery3_charging_in_kwh
